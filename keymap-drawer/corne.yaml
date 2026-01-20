@@ -88,28 +88,16 @@ layers:
   - $$mdi:apple-keyboard-option$$
   RAI:
   - ''
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - AMPS
-  - KP MULTIPLY
-  - (
-  - )
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - PLAY PAUSE
+  - Vol Down
+  - MUTE
+  - Vol Up
   - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '-'
-  - '='
-  - '['
-  - ']'
-  - \
   - ''
   - ''
   - {t: ▽, type: trans}
@@ -117,15 +105,27 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - _
-  - +
-  - '{'
-  - '}'
-  - '|'
+  - ←
+  - ↓
+  - ↑
+  - →
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - $$mdi:apple-keyboard-command$$
-  - '&studio_unlock'
+  - ''
   - ␣
   - ⏎
-  - {t: '&studio_unlock', type: held}
+  - {type: held}
   - $$mdi:apple-keyboard-option$$
