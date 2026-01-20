@@ -37,19 +37,19 @@ layers:
   - .
   - {t: /, h: NUM}
   - ''
-  - $$mdi:apple-keyboard-command$$
-  - LOW
+  - {t: Esc, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: ↹, h: LOW}
   - ␣
   - ⏎
-  - RAI
+  - {t: '$$mdi:backspace-outline$$', h: RAI}
   - $$mdi:apple-keyboard-option$$
   LOW:
   - ''
-  - '1'
+  - ''
   - F17
   - ↑
   - F18
-  - '5'
+  - ''
   - '['
   - ']'
   - '`'
@@ -57,11 +57,11 @@ layers:
   - $$mdi:backspace-outline$$
   - ''
   - ''
-  - '0'
+  - ''
   - ←
   - ↓
   - →
-  - '0'
+  - ''
   - +
   - '-'
   - '*'
@@ -80,12 +80,12 @@ layers:
   - '|'
   - \
   - ''
-  - $$mdi:apple-keyboard-command$$
+  - $$mdi:backspace-outline$$
   - {type: held}
-  - ␣
   - ⏎
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-option$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   RAI:
   - ''
   - BT 1
@@ -123,12 +123,12 @@ layers:
   - ''
   - ''
   - ''
-  - $$mdi:apple-keyboard-command$$
-  - ''
-  - ␣
-  - ⏎
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - OUT TOG
+  - {t: ▽, type: trans}
   - {type: held}
-  - $$mdi:apple-keyboard-option$$
+  - BT CLR
   NUM:
   - ''
   - '!'
@@ -166,9 +166,9 @@ layers:
   - ''
   - ''
   - ''
-  - $$mdi:apple-keyboard-command$$
-  - ''
-  - ␣
-  - ⏎
-  - ''
-  - $$mdi:apple-keyboard-option$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
