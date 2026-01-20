@@ -26,7 +26,7 @@ layers:
   - {t: ;, h: '$$mdi:apple-keyboard-shift$$'}
   - ''
   - ''
-  - Z
+  - {t: Z, h: NUM}
   - X
   - C
   - V
@@ -131,28 +131,31 @@ layers:
   - $$mdi:apple-keyboard-option$$
   NUM:
   - ''
-  - '1'
-  - F17
-  - ↑
-  - F18
-  - '5'
-  - '['
-  - ']'
-  - '`'
-  - '~'
-  - $$mdi:backspace-outline$$
-  - ''
-  - ''
-  - '0'
-  - ←
-  - ↓
-  - →
-  - '0'
-  - +
-  - '-'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - AMPS
   - '*'
-  - '='
-  - ''''
+  - (
+  - )
+  - ''
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -160,15 +163,12 @@ layers:
   - ''
   - ''
   - ''
-  - '{'
-  - '}'
-  - '|'
-  - '|'
-  - \
   - ''
-  - $$mdi:apple-keyboard-command$$
+  - ''
+  - ''
   - {t: ▽, type: trans}
-  - ␣
-  - ⏎
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-option$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
