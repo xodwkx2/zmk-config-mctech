@@ -31,7 +31,7 @@
             require-prior-idle-ms = <120>;
 
             hold-trigger-key-positions = <
-                12 13 14 15   /* right hand keys */
+                10 19   /* right hand keys */
             >;
 
             bindings = <&kp>, <&kp>;
