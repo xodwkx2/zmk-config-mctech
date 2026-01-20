@@ -26,7 +26,7 @@ layers:
   - {t: ;, h: '$$mdi:apple-keyboard-shift$$'}
   - ''
   - ''
-  - Z
+  - {t: Z, h: NUM}
   - X
   - C
   - V
@@ -35,7 +35,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: NUM}
   - ''
   - $$mdi:apple-keyboard-command$$
   - LOW
@@ -128,4 +128,47 @@ layers:
   - ␣
   - ⏎
   - {type: held}
+  - $$mdi:apple-keyboard-option$$
+  NUM:
+  - ''
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - AMPERS
+  - '*'
+  - LPRN
+  - RPRN
+  - ''
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ''
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - $$mdi:apple-keyboard-command$$
+  - ''
+  - ␣
+  - ⏎
+  - ''
   - $$mdi:apple-keyboard-option$$
