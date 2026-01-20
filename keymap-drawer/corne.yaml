@@ -129,3 +129,46 @@ layers:
   - ⏎
   - {type: held}
   - $$mdi:apple-keyboard-option$$
+  NUM:
+  - ''
+  - '1'
+  - F17
+  - ↑
+  - F18
+  - '5'
+  - '['
+  - ']'
+  - '`'
+  - '~'
+  - $$mdi:backspace-outline$$
+  - ''
+  - ''
+  - '0'
+  - ←
+  - ↓
+  - →
+  - '0'
+  - +
+  - '-'
+  - '*'
+  - '='
+  - ''''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '{'
+  - '}'
+  - '|'
+  - '|'
+  - \
+  - ''
+  - $$mdi:apple-keyboard-command$$
+  - {t: ▽, type: trans}
+  - ␣
+  - ⏎
+  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-option$$
