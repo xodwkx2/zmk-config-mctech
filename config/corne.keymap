@@ -47,10 +47,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none     &none         &kp F17       &kp UP        &kp F18       &none                 &kp LBKT  &kp RBKT    &kp GRAVE  &kp TILDE &kp BSPC  &none
-&none  &none         &kp LEFT      &kp DOWN      &kp RIGHT     &none                 &kp PLUS  &kp MINUS   &kp ASTRK  &kp EQUAL &kp SQT   &none
-&none   &none         &none         &none         &none         &kp LSHFT(LCMD(N4))   &kp LBRC  &kp RBRC    &kp PIPE   &kp PIPE  &kp BSLH  &none
-                                        &kp BSPC      &trans        &kp RET               &trans   &trans      &kp RALT
+&none  &none         &kp F17       &kp UP        &kp F18       &none                  &kp LBKT  &kp RBKT    &kp GRAVE  &kp TILDE &kp BSPC  &none
+&none  &none         &kp LEFT      &kp DOWN      &kp RIGHT     &none                  &kp PLUS  &kp MINUS   &kp ASTRK  &kp EQUAL &kp SQT   &none
+&none  &none         &none         &none         &none         &kp (LSHFT(LCMD(N4)))  &kp LBRC  &kp RBRC    &kp PIPE   &kp PIPE  &kp BSLH  &none
+                                   &kp BSPC      &trans        &kp RET                &trans    &trans      &kp RALT
             >;
         };
 
