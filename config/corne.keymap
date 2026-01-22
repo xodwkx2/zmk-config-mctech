@@ -52,10 +52,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none   &kp Q        &kp W       &kp E           &kp R        &kp T         &kp Y     &kp U        &kp I           &kp O         &kp P           &none
-&none   &hr_mt LSHFT A  &hr_mt LCMD S  &hr_mt LALT D      &hr_mt LCTRL F  &kp  G        &kp  H    &hr_mt RCTRL J  &hr_mt RALT K      &hr_mt RCMD L    &hr_mt RSHFT SEMI  &none
-&none   &lt 3 Z        &kp X     &kp C           &kp V        &kp B         &kp N     &kp M        &kp COMMA       &kp DOT       &lt 3 FSLH      &none
-                                 &mt LGUI ESCAPE &lt 1 TAB    &kp SPACE     &lt 2 RET &kp BSPC     &kp RALT
+&none   &kp Q        &kp W          &kp E           &kp R           &kp T         &kp Y     &kp U           &kp I           &kp O         &kp P           &none
+&none   &mt LSHFT A  &hr_mt LCMD S  &hr_mt LALT D   &hr_mt LCTRL F  &kp  G        &kp  H    &hr_mt RCTRL J  &hr_mt RALT K   &hr_mt RCMD L &mt RSHFT SEMI  &none
+&none   &lt 3 Z      &kp X          &kp C           &kp V           &kp B         &kp N     &kp M           &kp COMMA       &kp DOT       &lt 3 FSLH      &none
+                                    &mt LGUI ESCAPE &lt 1 TAB       &kp SPACE     &lt 2 RET &kp BSPC        &kp RALT
             >;
         };
 
@@ -68,10 +68,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &none         &kp F17       &kp UP        &kp F18       &none          &kp LBKT  &kp RBKT  &kp GRAVE    &kp TILDE    &kp BSPC  &none
+&none  &none         &kp F17       &kp UP        &kp F18       &none          &kp LBKT  &kp RBKT  &kp GRAVE    &kp TILDE    &kp DEL   &none
 &none  &none         &kp LEFT      &kp DOWN      &kp RIGHT     &none          &kp PLUS  &kp MINUS &kp ASTRK    &kp EQUAL    &kp SQT   &none
 &none  &none         &none         &none         &none         &kp LS(LC(N4)) &kp LBRC  &kp RBRC  &kp PIPE     &kp PIPE     &kp BSLH  &none
-                                   &kp BSPC      &trans        &kp RET         &trans    &trans    &trans
+                                   &kp BSPC      &trans        &kp RET        &trans    &trans    &trans
             >;
         };
 
@@ -85,8 +85,8 @@
 
             bindings = <
 &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp C_PLAY_PAUSE  &kp C_VOL_DN   &kp C_MUTE   &kp C_VOL_UP  &none     &none
-&none  &trans        &trans        &trans        &trans        &trans        &kp LEFT          &kp DOWN       &kp UP       &kp RIGHT     &none     &none
-&none  &trans        &trans        &trans        &trans        &trans        &none             &none          &none        &none         &none     &none
+&none  &none         &none         &none         &none         &none         &kp LEFT          &kp DOWN       &kp UP       &kp RIGHT     &none     &none
+&none  &none         &none         &none         &none         &none         &none             &none          &none        &none         &none     &none
                                    &trans        &trans        &out OUT_TOG  &trans            &trans         &bt BT_CLR
             >;
         };
