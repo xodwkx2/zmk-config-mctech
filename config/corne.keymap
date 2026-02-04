@@ -58,15 +58,15 @@
         lower_layer {
             display-name = "LOW";
             // -----------------------------------------------------------------------------------------
-            // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-            // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-            // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
+            // |     | SLP | F17 |  UP | F18 |     |   | LBKT| RBKT| GRAV| TILD|  0  | BKSP |
+            // |     |     | LFT | DWN | RIG |     |   | PLUS| MINS| ASTR| EQU |     |      |
+            // |     |     |     |     |     | SCR |   | LBRC| RBRC| PIPE| PIPE| BSLH|      |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &none         &kp F17       &kp UP        &kp F18       &none          &kp LBKT  &kp RBKT  &kp GRAVE    &kp TILDE    &kp DEL   &none
+&none  &kp LG(LC(Q)) &kp F17       &kp UP        &kp F18       &none          &kp LBKT  &kp RBKT  &kp GRAVE    &kp TILDE    &kp DEL   &none
 &none  &none         &kp LEFT      &kp DOWN      &kp RIGHT     &none          &kp PLUS  &kp MINUS &kp ASTRK    &kp EQUAL    &kp SQT   &none
-&none  &none         &none         &none         &none         &kp LS(LC(N4)) &kp LBRC  &kp RBRC  &kp PIPE     &kp PIPE     &kp BSLH  &none
+&none  &none         &none         &none         &none         &kp LS(LG(N4)) &kp LBRC  &kp RBRC  &kp PIPE     &kp PIPE     &kp BSLH  &none
                                    &kp BSPC      &trans        &kp RET        &trans    &trans    &trans
             >;
         };

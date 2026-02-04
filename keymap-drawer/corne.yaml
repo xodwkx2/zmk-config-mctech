@@ -45,7 +45,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   LOW:
   - ''
-  - ''
+  - Gui+Ctl+Q
   - F17
   - ↑
   - F18
@@ -73,7 +73,7 @@ layers:
   - ''
   - ''
   - ''
-  - Sft+Ctl+4
+  - Sft+Gui+4
   - '{'
   - '}'
   - '|'
