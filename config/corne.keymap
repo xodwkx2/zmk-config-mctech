@@ -58,16 +58,16 @@
         lower_layer {
             display-name = "LOW";
             // -----------------------------------------------------------------------------------------
-            // |     | SLP | F17 |  UP | F18 |     |   | LBKT| RBKT| GRAV| TILD|  0  | BKSP |
-            // |     |     | LFT | DWN | RIG |     |   | PLUS| MINS| ASTR| EQU |     |      |
-            // |     |     |     |     |     | SCR |   | LBRC| RBRC| PIPE| PIPE| BSLH|      |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
+            // |     | SLP | F16 |  UP | F18 | F14 |   | LBKT| RBKT| GRAV| TILD|  0  | DEL  |
+            // |     |     | LFT | DWN | RIG | DEL |   | PLUS| MINS| ASTR| EQU |     |      |
+            // |     |     | F17 | F13 | F18 | SCR |   | LBRC| RBRC| PIPE| PIPE| BSLH|      |
+            //                   | BKSP|     | RET |   |     |     |     |
 
             bindings = <
-&none  &kp LG(LC(Q)) &kp F17       &kp UP        &kp F18       &none          &kp LBKT  &kp RBKT  &kp GRAVE    &kp TILDE    &kp DEL   &none
-&none  &none         &kp LEFT      &kp DOWN      &kp RIGHT     &none          &kp PLUS  &kp MINUS &kp ASTRK    &kp EQUAL    &kp SQT   &none
-&none  &none         &none         &none         &none         &kp LS(LG(N4)) &kp LBRC  &kp RBRC  &kp PIPE     &kp PIPE     &kp BSLH  &none
-                                   &kp BSPC      &trans        &kp RET        &trans    &trans    &trans
+&none  &kp LG(LC(Q)) &kp F16     &kp UP        &kp LG(TILDE) &kp F11        &kp LBKT  &kp RBKT   &kp GRAVE  &kp TILDE  &kp DEL   &none
+&none  &kp HOME      &kp LEFT    &kp DOWN      &kp RIGHT     &kp DEL        &kp PLUS  &kp MINUS  &kp PIPE   &kp EQUAL  &kp SQT   &none
+&none  &kp END       &kp F17     &kp F13       &kp F18       &kp LS(LG(N4)) &kp LBRC  &kp UNDER  &kp RBRC   &kp BSLH   &kp DQT  &none
+                                 &kp BSPC      &trans        &kp RET        &trans    &trans    &trans
             >;
         };
 
