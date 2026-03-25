@@ -2,9 +2,17 @@ file_format: "1"
 id: skeletyl
 name: Skeletyl
 type: shield
-url: https://github.com/Bastardkb/Skeletyl
+url: https://github.com/foostan/crkbd/
 requires: [pro_micro]
-exposes: [i2c]
+exposes: [i2c_oled]
 features:
   - keys
   - display
+  - underglow
+  - studio
+siblings:
+  - skeletyl_left
+  - skeletyl_right
+  - skeletyl_left_peripheral
+  - skeletyl_dongle_xiao
+  - skeletyl_dongle_pro_micro
