@@ -93,7 +93,7 @@ layers:
   - BT 3
   - BT 4
   - BT 5
-  - PLAY PAUSE
+  - ''
   - Vol Down
   - MUTE
   - Vol Up
@@ -118,9 +118,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - ⏮️
+  - ⏯
+  - ⏭️
   - ''
   - ''
   - {t: ▽, type: trans}

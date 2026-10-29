@@ -42,64 +42,64 @@
         default_layer {
             display-name = "BAS";
             // -----------------------------------------------------------------------------------------
-            // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-            // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-            // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-            //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
+            // |      |  Q   |  W   |  E   |  R   |  T   |   |  Y   |  U   |  I   |  O   |  P   |      |
+            // |      |A/SHFT|S/CMD |D/ALT |F/CTRL|  G   |   |  H   |J/CTRL|K/ALT |L/CMD |;/SHFT|      |
+            // |      |Z/NUM |  X   |  C   |  V   |  B   |   |  N   |  M   |  ,   |  .   |//NUM |      |
+            //                      |ESC/GU|TAB/LW| SPC  |   |RET/RS| BSPC | RALT |
 
             bindings = <
-&none   &kp Q        &kp W          &kp E           &kp R           &kp T         &kp Y     &kp U           &kp I           &kp O         &kp P           &none
-&none   &hr_mt LSHFT A  &hr_mt LCMD S  &hr_mt LALT D   &hr_mt LCTRL F  &kp  G        &kp  H    &hr_mt RCTRL J  &hr_mt RALT K   &hr_mt RCMD L &hr_mt RSHFT SEMI  &none
-&none   &lt 3 Z      &kp X          &kp C           &kp V           &kp B         &kp N     &kp M           &kp COMMA       &kp DOT       &lt 3 FSLH      &none
-                                    &mt LGUI ESCAPE &lt 1 TAB       &kp SPACE     &lt 2 RET &kp BSPC        &kp RALT
+&none  &kp Q           &kp W          &kp E           &kp R           &kp T         &kp Y      &kp U           &kp I         &kp O          &kp P              &none
+&none  &hr_mt LSHFT A  &hr_mt LCMD S  &hr_mt LALT D   &hr_mt LCTRL F  &kp G         &kp H      &hr_mt RCTRL J  &hr_mt RALT K &hr_mt RCMD L  &hr_mt RSHFT SEMI  &none
+&none  &lt 3 Z         &kp X          &kp C           &kp V           &kp B         &kp N      &kp M           &kp COMMA     &kp DOT        &lt 3 FSLH         &none
+                                      &mt LGUI ESCAPE &lt 1 TAB       &kp SPACE     &lt 2 RET  &kp BSPC        &kp RALT
             >;
         };
 
         lower_layer {
             display-name = "LOW";
             // -----------------------------------------------------------------------------------------
-            // |     | SLP | F16 |  UP | F18 | F14 |   | LBKT| RBKT| GRAV| TILD|  0  | DEL  |
-            // |     | D_L | LFT | DWN | RIG | DEL |   | PLUS| MINS| ASTR| EQU |     |      |
-            // |     | D_R | F17 | F13 | F18 | SCR |   | LBRC| RBRC| PIPE| PIPE| BSLH|      |
-            //                   | BKSP|     | RET |   |     |     |     |
+            // |      | SLP  | F16  |  UP  | G+~  | F11  |   |  [   |  ]   |  `   |  ~   | DEL  |      |
+            // |      | D_L  | LEFT | DOWN |RIGHT | DEL  |   |  +   |  -   | PIPE |  =   |  '   |      |
+            // |      | D_R  | F17  | F13  | F18  | SCR  |   |  {   |  _   |  }   |  \   |  "   |      |
+            //                      | BSPC |      | RET  |   |      |      |      |
 
             bindings = <
-&none  &kp LG(LC(Q)) &kp F16     &kp UP        &kp LG(TILDE) &kp F11        &kp LBKT  &kp RBKT   &kp GRAVE  &kp TILDE  &kp DEL   &none
-&none  &kp LC(LEFT)  &kp LEFT    &kp DOWN      &kp RIGHT     &kp DEL        &kp PLUS  &kp MINUS  &kp PIPE   &kp EQUAL  &kp SQT   &none
-&none  &kp LC(RIGHT) &kp F17     &kp F13       &kp F18       &kp LS(LG(N4)) &kp LBRC  &kp UNDER  &kp RBRC   &kp BSLH   &kp DQT   &none
-                                 &kp BSPC      &trans        &kp RET        &trans    &trans    &trans
+&none  &kp LG(LC(Q))  &kp F16   &kp UP    &kp LG(TILDE)  &kp F11         &kp LBKT  &kp RBKT   &kp GRAVE  &kp TILDE  &kp DEL  &none
+&none  &kp LC(LEFT)   &kp LEFT  &kp DOWN  &kp RIGHT      &kp DEL         &kp PLUS  &kp MINUS  &kp PIPE   &kp EQUAL  &kp SQT  &none
+&none  &kp LC(RIGHT)  &kp F17   &kp F13   &kp F18        &kp LS(LG(N4))  &kp LBRC  &kp UNDER  &kp RBRC   &kp BSLH   &kp DQT  &none
+                                &kp BSPC  &trans         &kp RET         &trans    &trans     &trans
             >;
         };
 
         raise_layer {
             display-name = "RAI";
             // -----------------------------------------------------------------------------------------
-            // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-            // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-            // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
+            // |      | BT1  | BT2  | BT3  | BT4  | BT5  |   |      |VOL_DN| MUTE |VOL_UP|      |      |
+            // |      |      |      |      |      |      |   | LEFT | DOWN |  UP  |RIGHT |      |      |
+            // |      |      |      |      |      |      |   |      | PREV | PLAY | NEXT |      |      |
+            //                      |      |      |OUT_TG|   |      |      |BT_CLR|
 
             bindings = <
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp C_PLAY_PAUSE  &kp C_VOL_DN   &kp C_MUTE   &kp C_VOL_UP  &none     &none
-&none  &none         &none         &none         &none         &none         &kp LEFT          &kp DOWN       &kp UP       &kp RIGHT     &none     &none
-&none  &none         &none         &none         &none         &none         &none             &none          &none        &none         &none     &none
-                                   &trans        &trans        &out OUT_TOG  &trans            &trans         &bt BT_CLR
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none     &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &none  &none
+&none  &none         &none         &none         &none         &none           &kp LEFT  &kp DOWN      &kp UP      &kp RIGHT     &none  &none
+&none  &none         &none         &none         &none         &none           &none     &kp C_PREV    &kp C_PP    &kp C_NEXT    &none  &none
+                                   &trans        &trans        &out OUT_TOG    &trans    &trans        &bt BT_CLR
             >;
         };
 
         numeric_layer {
             display-name = "NUM";
             // -----------------------------------------------------------------------------------------
-            // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-            // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-            // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
+            // |      |  !   |  @   |  #   |  $   |  %   |   |  ^   |  &   |  *   |  (   |  )   |      |
+            // |      |  1   |  2   |  3   |  4   |  5   |   |  6   |  7   |  8   |  9   |  0   |      |
+            // |      |      |      |      |      |      |   |      |      |      |      |      |      |
+            //                      |      |      |      |   |      |      |      |
 
             bindings = <
-&none  &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PERCENT     &kp CARET &kp AMPS  &kp ASTRK    &kp LPAR     &kp RPAR  &none
-&none  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8       &kp N9       &kp N0    &none
-&none  &none         &none         &none         &none         &none           &none     &none     &trans       &trans       &trans    &none
-                                   &trans        &trans        &trans          &trans    &trans    &trans
+&none  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR  &none
+&none  &kp N1    &kp N2  &kp N3    &kp N4      &kp N5         &kp N6     &kp N7    &kp N8     &kp N9    &kp N0    &none
+&none  &none     &none   &none     &none       &none          &none      &none     &trans     &trans    &trans    &none
+                         &trans    &trans      &trans         &trans     &trans    &trans
             >;
         };
 
